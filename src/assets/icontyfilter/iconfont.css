@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "iconfonttywhp"; /* Project id 3198773 */
+  src: url('iconfont.eot?t=1645535646051'); /* IE9 */
+  src: url('iconfont.eot?t=1645535646051#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff?t=1645535646051') format('woff'),
+       url('iconfont.ttf?t=1645535646051') format('truetype'),
+       url('iconfont.svg?t=1645535646051#iconfontwhp') format('svg');
+}
+
+.whp-ty_filter {
+  font-family: "iconfonttywhp" !important;
+  font-size: 14px;
+  color: #999999;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.whp-ty_filter:before {
+  content: "\e6b6";
+}

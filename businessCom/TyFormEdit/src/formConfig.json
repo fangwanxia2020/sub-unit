@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "type": "input",
+      "icon": "icon-input",
+      "name": "模板名称",
+      "options": {
+        "showText": false,
+        "width": "100%",
+        "defaultValue": "",
+        "required": false,
+        "dataType": "string",
+        "maxlength": "",
+        "minlength": "",
+        "pattern": "",
+        "patternTips": "",
+        "placeholder": "",
+        "disabled": false,
+        "hide": false,
+        "tipFont": "",
+        "mouseTips": ""
+      },
+      "key": 1606383082001,
+      "model": "applytemplateName",
+      "rules": [
+        {
+          "required": true,
+          "message": "模板名称不能为空"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "id": "form_1606383079000",
+    "labelWidth": 100,
+    "labelPosition": "right",
+    "size": "medium",
+    "formName": "pc端表单"
+  }
+}

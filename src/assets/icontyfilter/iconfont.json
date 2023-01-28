@@ -1,0 +1,16 @@
+{
+  "id": "3198773",
+  "name": "whp",
+  "font_family": "iconfontwhp",
+  "css_prefix_text": "whp-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "826327",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    }
+  ]
+}

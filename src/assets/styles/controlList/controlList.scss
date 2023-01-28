@@ -1,0 +1,16 @@
+.item-line {
+  .mb22 {
+    margin-bottom: 22px;
+  }
+  .item-error {
+    ::v-deep input.el-input__inner {
+      border-color: #F56C6C;
+    }
+    ::v-deep textarea.el-textarea__inner{
+     border-color: #F56C6C;
+   }
+  }
+  .color_D5D5D5 {
+    color: #F56C6C;
+  }
+}

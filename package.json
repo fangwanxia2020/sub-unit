@@ -1,0 +1,53 @@
+{
+  "name": "ty-pc",
+  "version": "3.2.3",
+  "description": "天源pc端UI库",
+  "author": "lyt",
+  "license": "MIT",
+  "main": "lib/index/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "npm run build:components && npm run build:utils && npm run build:api",
+    "build:components": "vue-cli-service build",
+    "build:api": "babel -d lib/api api/",
+    "build:utils": "babel -d lib/utils utils/"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "clipboard": "^2.0.4",
+    "core-js": "^2.6.5",
+    "element-china-area-data": "^4.1.2",
+    "element-ui": "^2.11.1",
+    "exif-js": "^2.3.0",
+    "file-saver": "^2.0.2",
+    "js-base64": "^3.6.1",
+    "js-cookie": "^3.0.1",
+    "json-bigint": "^1.0.0",
+    "pubsub-js": "^1.9.4",
+    "qs": "^6.10.1",
+    "regenerator-runtime": "^0.13.11",
+    "vue": "^2.6.10",
+    "vue-pdf-lyt": "^1.0.3",
+    "vue-router": "^3.0.1",
+    "vuedraggable": "^2.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-optional-chaining": "^7.18.9",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.9.6",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "async-validator": "^3.2.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

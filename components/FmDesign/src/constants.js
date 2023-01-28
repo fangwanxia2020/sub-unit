@@ -1,0 +1,1 @@
+export const BIND_ITEM_LIST = 'sonInterfaceAttrVoList'  //绑定组件的List类似的字段名
